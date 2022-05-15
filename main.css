@@ -45,8 +45,9 @@ nav p {
 }
 
 .btn {
-  background-color: rgb(124, 197, 124);
+  background-color: rgb(39, 167, 39);
   border-radius: 5px;
+  padding: 5px 20px;
 }
 
 /**** MAIN ****/
@@ -70,6 +71,10 @@ form {
 form h4 {
   text-align: center;
   padding-bottom: 30px;
+}
+
+form .btn {
+  padding: 2px 20px;
 }
 
 .second-page {
@@ -109,25 +114,29 @@ form h4 {
 
 /**** SECOND PAGE ****/
 .grid {
+  background-color: rgb(39, 35, 35);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
-  gap: 5px;
+  column-gap: 1%;
+  row-gap: 5px;
   padding-top: 150px;
 }
 
 .grid img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .card {
   transition: 0.5s;
+  width: 100%;
 }
 
 .card:hover {
   transform: scale(0.9);
-  box-shadow: 0px 0px 21px 10px rgba(255, 110, 186, 0.93);
+  box-shadow: 0px 0px 21px 10px rgba(255, 255, 255, 0.93);
 }
 
 /**** FOOTER ****/
@@ -143,6 +152,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer-second-page {
+  background-color: rgb(73, 73, 212);
+  color: white;
 }
 
 /**** MEDIA QUERIES ****/
@@ -170,16 +184,15 @@ footer {
   }
 }
 
-
 @media only screen and (max-width: 576px) {
-  .grip {
+  .grid {
     grid-template-columns: 1fr;
     padding-top: 110px;
   }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 830px) {
-  .grip {
+  .grid {
     grid-template-columns: 1fr 1fr;
     padding-top: 110px;
   }
