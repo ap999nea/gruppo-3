@@ -172,14 +172,14 @@ footer {
 
 
 @media only screen and (max-width: 576px) {
-  .grip {
+  .grid {
     grid-template-columns: 1fr;
     padding-top: 110px;
   }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 830px) {
-  .grip {
+  .grid {
     grid-template-columns: 1fr 1fr;
     padding-top: 110px;
   }
