@@ -129,7 +129,7 @@ form h3 {
 
 /**** SECOND PAGE ****/
 .grid {
-  background-color: rgb(39, 35, 35);
+  background-color: rgb(39, 35, 35;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
@@ -140,6 +140,7 @@ form h3 {
 
 .grid img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .card {
