@@ -170,6 +170,12 @@ footer {
   color: white;
 }
 
+.footer-second-page {
+  background-color: rgb(56, 0, 171);
+  text-align: center;
+  color: white;
+}
+
 /**** MEDIA QUERIES ****/
 @media only screen and (min-width: 320px) and (max-width: 760) {
 .boxes {
