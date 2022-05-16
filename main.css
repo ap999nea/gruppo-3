@@ -177,7 +177,7 @@ footer {
 }
 
 /**** MEDIA QUERIES ****/
-@media only screen and (min-width: 320px) and (max-width: 760) {
+@media only screen and (min-width: 320px) and (max-width: 760px) {
 .boxes {
     display: flex;
     flex-flow: column wrap;
