@@ -171,13 +171,13 @@ footer {
 }
 
 /**** MEDIA QUERIES ****/
-media only screen and (min-width: 320px) and (max-width: 760) {
+@media only screen and (min-width: 320px) and (max-width: 760) {
 .boxes {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-}
+  }
   .box {
     background-color: black;
     width: 60%;
@@ -187,7 +187,7 @@ media only screen and (min-width: 320px) and (max-width: 760) {
     text-align: center;
     display: inline-block;
     border-radius: 10px;
-}
+  }
 }
 
 
