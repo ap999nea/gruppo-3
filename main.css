@@ -24,7 +24,7 @@ h5 {
 }
 
 .container {
-  width: 100%;
+  min-width: 400px;
 }
 
 /**** HEADER ****/
